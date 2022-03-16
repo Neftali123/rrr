@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width,inicio">
+      <link rel="stylesheet" href="estilo1.css">
+      <title>Ejemplo de formulario</title>
+</head>
+<body>
+    <h1>Formulario de contacto</h1>
+    
+<fieldset>
+     <legend>Formulario Web</legend>
+      <form name="contacto" method="get"> 
+        <label for="nombre">Nombre:</label>
+        <input type="text" name="nombre" id="nombre"placeholder="Introduzca su nombre" required />
+        <label for="email">Email:</label>
+        <input type="text" name="email" id="email" required />
+        <label for="telefono">Telefono:</label>
+        <input type="tel" name="telefono" id="telefono" />
+        <label for="pais">Pais:</label>
+         <input name="pais" list="paises" placeholder="Elija un pais" />
+         <datalist id="paises">
+            <option> Guatemala </option>
+            <option> El salvador </option>
+            <option> Nicaragua </option>
+            <option> Honduras </option>
+            <option> Costa rica </option>
+            <option> Panamá </option>
+            <option> México </option>
+            <option> Estados Unidos </option>
+            <option> Canadá </option>
+         </datalist>
+    <label for="edad">Edad:</label>
+    <input type="number" name="edad" id="edad" min="18" max="65" required>
+    <label for="fnac">Fecha Nacimiento:</label>
+    <input type="date" name="fnac" id="fnac" min="1970-01-01" max="2024-02-23"> 
+    <div>
+        <button type="submit">ENVIAR</button>
+ </div>
+    </form>
+    </fieldset>
+</body>
+</html>

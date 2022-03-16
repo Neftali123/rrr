@@ -1,0 +1,22 @@
+
+body {
+    font-family: 'Roboto';
+    background: #4568dc;
+        /* fallback for old browsers */
+ background: -webkit-linear-gradient(to right, #b1c5db, #6f99d1);
+   /* Chrome 10-25, Safari 5.1-6 */
+ background: linear-gradient(to right, #b1c5db, #6f99d1);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+ display:table;
+
+}
+
+input{
+    background:rgba(236, 238, 237, 0.856);
+    color: #6e9fc7;
+    padding: 12px 12px 10px 15px;
+    display:block;
+    border-radius: 15px;
+
+}
+
